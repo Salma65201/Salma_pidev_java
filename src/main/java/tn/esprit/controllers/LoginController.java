@@ -28,8 +28,7 @@ public class LoginController {
     @FXML private Button loginButton;
 
     @FXML
-    public void initialize() {
-    }
+    public void initialize() {}
 
     @FXML
     private void handleLogin() {
@@ -48,9 +47,18 @@ public class LoginController {
                 return;
             }
 
+            // User exists → navigate to Home
             showMessage("Welcome, " + user.getNom() + "!", false);
+            Parent root = FXMLLoader.load(getClass().getResource("/home.fxml"));
+            Stage stage = (Stage) loginButton.getScene().getWindow();
+            stage.setScene(new Scene(root, 980, 720));
+            stage.setTitle("Esports Community");
+            stage.show();
+
         } catch (SQLException e) {
             showMessage("Database error: " + e.getMessage(), true);
+        } catch (IOException e) {
+            showMessage("Unable to open Home page.", true);
         }
     }
 
@@ -60,14 +68,6 @@ public class LoginController {
             loadScene(event, "/Register.fxml", "Register");
         } catch (IOException e) {
             showMessage("Unable to open register form.", true);
-        }
-    }
-    @FXML
-    private void goToHome(ActionEvent event) {
-        try {
-            loadScene(event, "/home.fxml", "Home");
-        } catch (IOException e) {
-            showMessage("Unable to open Home page.", true);
         }
     }
 
