@@ -48,10 +48,14 @@ public class LoginController {
                 return;
             }
 
-            // User exists → navigate to Home
+            // User exists → navigate to Home or admin dashboard
             SessionManager.setCurrentUser(user);
             showMessage("Welcome, " + user.getNom() + "!", false);
-            Parent root = FXMLLoader.load(getClass().getResource("/home.fxml"));
+            String fxml = "/home.fxml";
+            if ("admin@gmail.com".equalsIgnoreCase(user.getEmail())) {
+                fxml = "/main.fxml";
+            }
+            Parent root = FXMLLoader.load(getClass().getResource(fxml));
             Stage stage = (Stage) loginButton.getScene().getWindow();
             stage.setScene(new Scene(root, 980, 720));
             stage.setTitle("Esports Community");

@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d9361db9-95ef-4837-b2cf-105c08edff2b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/JeuxPanelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/JeuxPanelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NavbarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/NavbarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/TournoisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/TournoisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/services/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/services/ServiceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/controllers/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tn/esprit/utils/MyDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tn/esprit/utils/MyDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jeuxPanel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jeuxPanel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tournement.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="89" />
+    <option name="cachedIndexableFilesCount" value="93" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,7 +93,7 @@
       <recent name="C:\Users\rajhi\pidev_java_aziz\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FxLauncher">
+  <component name="RunManager" selected="Application.MainFX">
     <configuration name="FxLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tn.esprit.test.FxLauncher" />
       <module name="WorkshopJDBC-JavaFX-3A56" />
@@ -118,7 +111,7 @@
     <configuration name="MainFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tn.esprit.test.MainFX" />
       <module name="pidev" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\medam\.m2\repository\org\openjfx\javafx-controls\21.0.2\javafx-controls-21.0.2-win.jar;C:\Users\medam\.m2\repository\org\openjfx\javafx-fxml\21.0.2\javafx-fxml-21.0.2-win.jar;C:\Users\medam\.m2\repository\org\openjfx\javafx-graphics\21.0.2\javafx-graphics-21.0.2-win.jar;C:\Users\medam\.m2\repository\org\openjfx\javafx-base\21.0.2\javafx-base-21.0.2-win.jar&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\MSI\.m2\repository\org\openjfx\javafx-controls\21.0.2;C:\Users\MSI\.m2\repository\org\openjfx\javafx-fxml\21.0.2;C:\Users\MSI\.m2\repository\org\openjfx\javafx-graphics\21.0.2;C:\Users\MSI\.m2\repository\org\openjfx\javafx-base\21.0.2&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tn.esprit.test.*" />
@@ -165,10 +158,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainFX" />
         <item itemvalue="Application.FxLauncher" />
         <item itemvalue="JUnit.ProductServiceTest" />
         <item itemvalue="JUnit.ServiceUserTest" />
-        <item itemvalue="Application.MainFX" />
         <item itemvalue="JUnit.ServiceBlogTest" />
       </list>
     </recent_temporary>
